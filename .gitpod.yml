@@ -3,3 +3,4 @@ image:
 vscode:
   extensions:
     - ms-python.python
+    - zaaack.markdown-editor
