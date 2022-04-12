@@ -189,9 +189,10 @@ __NOTE (Mininet)__: When using Mininet, you can choose any number for the stand 
 
 Additionally,  the  first  PC,  tuxX1  (tux31  if  you  are  on  stand  3),  will  have  a  second  interface connected  to  an  IPv6  infrastructured  network,  which  must  be  configured  with  a  global  IPv6 address 3000::X/64 (e.g. tux31 in stand 3 will have its eth1 configured with the global address 3000::3/64).  Another  IPv6  Router  was  previously  set  up  on  that  network  (don't  worry  about configuring this router) with the global IPv6 address 3000::254/64. 
 
-__NOTE (Mininet)__: When using Mininet, you must configure this router (PC5). The instructions are on Section 2.6. Setting a global IPv6 address for PC1 in Stand X: 
+__NOTE (Mininet)__: When using Mininet, you must configure this router (PC5). The instructions are on Section 2.6. Setting a global IPv6 address for PC1 in Stand __X__: 
 
-```bash sudo ifconfig eth1 up 
+```bash 
+$ sudo ifconfig eth1 up 
 $ sudo ifconfig eth1 inet6 add 3000::X/64 
 ```
 ### 2.4.2 Physical Topology 
@@ -202,6 +203,10 @@ are  on  stand  4-6,  then  you  connect  this  interface  to  stand  4  (e.g.  
 instance to 6.13-4.17). 
 The picture below shows the physical topology of the network. 
  
+
+ ----
+INSER PHOTO
+ ----
  
 ### 2.4.3 Emulated Ad-Hoc Topology 
 This  is  not  enough.  To  emulate  the  Ad-Hoc  topology  we  want  to  test,  we  need  to  use  MAC 
