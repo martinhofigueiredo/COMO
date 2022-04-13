@@ -2,7 +2,6 @@ FROM gitpod/workspace-full
 
 # Install custom tools, runtime, etc.
 RUN sudo apt-get update \
-
     && sudo apt-get install mininet xterm -y \
     && sudo apt-get install openvswitch-switch \
     && sudo service openvswitch-switch start \
