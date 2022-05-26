@@ -6,4 +6,5 @@ RUN sudo apt-get update \
     && sudo apt-get install openvswitch-switch \
     && sudo service openvswitch-switch start \
     && sudo rm -rf /var/lib/apt/lists/* \
-    && sudo pip3 install pandoc
+    && sudo pip3 install pandoc \
+    && sudo git clone git@gitlab.com:nsnam/ns-3-allinone.git
