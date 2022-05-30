@@ -37,6 +37,6 @@ def first_study(start=100,stop=1500,step=100,duration=60, manual=False):
 ```python
 first_study()
 ```
-![results_first_study](img/first_study.)
+![results_first_study](img/first_study.png)
 ## Second Study - Throughput vs number of STAs 
 In the same way we have created a similar python code to execute and visualise the results. The objective this time is to understand the impact of multiple stations (STAs) in the throughput. In this study we have concluded
