@@ -19,9 +19,11 @@ In the same way we have created a similar python code to execute and visualise t
 
 
 
-![results_first_study](img/img2_1.png)
+![results_first_study](img/img2_2.png)
 
 ## Third Study
+The 
+
 ![results_first_study](img/img3.png)
 
 ## Fourth Study
